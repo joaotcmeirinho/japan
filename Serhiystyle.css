@@ -117,6 +117,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-size:5vw;
 }
 .skHeader {
   height: 10vh;
