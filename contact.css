@@ -3,10 +3,10 @@
 #contacto {
     /* Center the form on the page */
     margin: 0 auto;
-    width: 50vw;
+    width: 30vw;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #ccc;
+     border: 1px solid #ccc; 
     border-radius: 2em;
   }
 
@@ -70,8 +70,21 @@
   }
 
   #contactbody {
-    background-image: url(pictures/cherryblosoms.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url(pictures/cherryblosoms.jpg); */
+    /* background-image: url(pictures/porfin.png); */
+    background-color: black;
+   
+  }
+
+  #chicacamara{
+  margin-left: 15%;
+  position: relative;
+  top: 40vh;
+  }
+
+  #papiTextArea {
+border: 5px red solid;
+width: 30vw;
+position: absolute;
+left: 38%;
   }
