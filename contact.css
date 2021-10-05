@@ -9,6 +9,7 @@ body {
   padding: 0;
   color: #ff4d4d;
   font-family: "Explora", cursive;
+  /* overflow: hidden; */
 }
 
 /* this is the burger button menu*/
@@ -280,16 +281,24 @@ footer{
   #contactbody {
     /* background-image: url(pictures/cherryblosoms.jpg); */
     /* background-image: url(pictures/porfin.png); */
-    background-color: black;
+    background-image: url(pictures/blackbackground.jpg);
    
   }
 
   #chicacamara{
     position: relative;
-    left: 15.5vw;
-    /* position: fixed;
-    top: 20vh; */
+    /* left: 5vw; */
+    /* top: 20vh;  */
+    transform: translateX(400px);
+    transition: 3s;
+    transition-timing-function: ease;
   }
+
+  /* #chicacamara:hover{
+    transform: translateX(400px);
+    transition: 1s;
+    transition-timing-function: ease;
+  } */
 
   #papiTextArea {
 /* border: 5px red solid; */
@@ -298,7 +307,35 @@ width: 30vw;
 /* left: 38%; */
   }
 
-  button {
-    margin-top: 15vh;
+  /* STYLING OF BOTTOM */
   
+  button {
+    border       : 3px solid #f009;
+    border-radius: 5px;
+    background   : none;
+    cursor       : pointer;
+    background-color: white;
+    font-family: 'BioRhyme', serif;
+    font-size: .5em;
+    top: 1.5em;
+    position: relative;
+  }
+ 
+  button:after {
+    content      : " >>>";
+  }
+  
+  button:hover,
+  button:focus {
+    outline     : none;
+    background  : #000;
+    color       : #FFF;
+  }
+
+  /* SOLECITO */
+  #solecito{
+    position: relative;
+    left: 80vw;
+     /* transform: translateX(-700px); */
+    bottom: -30vw;
   }
