@@ -16,13 +16,13 @@ let cameraGirl = document.getElementById('chicacamara');
 
  let sun = document.getElementById('solecito');
 
- sun.style.transform = `translateX(-700px)`;
+//  sun.style.transform = `translateX(-700px)`;
 
  sun.style.transition = '3s';
 
  sun.style.transitionTimingFunction = 'ease';
 
-// sun.style.transform = `translateY(-200px)`;
+ sun.style.transform = `translateY(-650px)`;
 
 ////////////////////////////////////////////////////////////////
 

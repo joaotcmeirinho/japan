@@ -9,7 +9,7 @@ body {
   padding: 0;
   color: #ff4d4d;
   font-family: "Explora", cursive;
-  /* overflow: hidden; */
+  
 }
 
 /* this is the burger button menu*/
@@ -335,7 +335,7 @@ width: 30vw;
   /* SOLECITO */
   #solecito{
     position: relative;
-    left: 80vw;
+    left: 42vw;
      /* transform: translateX(-700px); */
     bottom: -30vw;
   }
