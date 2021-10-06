@@ -12,6 +12,9 @@ body {
   
 }
 
+.wrapper{
+  overflow: hidden;
+}
 /* this is the burger button menu*/
 
 #menuToggle {
@@ -335,7 +338,7 @@ width: 30vw;
   /* SOLECITO */
   #solecito{
     position: relative;
-    left: 42vw;
+    left: 40vw;
      /* transform: translateX(-700px); */
     bottom: -30vw;
   }
