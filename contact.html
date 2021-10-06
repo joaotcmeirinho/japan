@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="contact.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<body id="contactbody">
+    <header class="skHeader">
+        <div id="menuToggle">
+    
+            <nav role="navigation">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <!--Natallie asked me to place the "a href" inside the <li>-->
+                <ul id="menu">
+    
+                    <li><a href="places.html" style="text-decoration:none">Places to Visit</li>
+                    </a>
+    
+                    <li><a href="food.html" style="text-decoration:none">Food in Japan</li>
+                    </a>
+    
+                    <li><a href="culture.html" style="text-decoration:none">Culture in Japan</li>
+                    </a>
+    
+                    <li><a href="game.html" style="text-decoration:none">Game</li>
+                    </a>
+    
+                    <li><a href="contact.html" style="text-decoration:none">Contact us</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+        <div class="middleTitle">
+            <h2>Wilders to Japan</h2>
+        </div>
+        <div class="LogoImg">
+            <a href="index.html" class="nav-logo"></a>
+            <img src="assets/logo.png" alt="Logo" width="100" \>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <form id="contacto" action="form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">Your email:</label>
+                    <input type="email" id="mail" name="user_mail" />
+                </li>
+                <li id="papiTextArea">
+                    <label for="msg"> How can we can help ?</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                    <button type="submit">I am ready!</button>
+                </li>
+                <!-- <li class="button">
+                            <button type="submit">I am ready!</button>
+                        </li> -->
+            </ul>
+        </form>
+        <img id="chicacamara" src="pictures/porfin.png" alt='anime girl' width="400px" height="600px">
+        <img src="pictures/solymapa2.png" id="solecito" alt="rising sun">
+    </div>
+    <footer>
+        <div class="FootContainer">
+            <p id="introduction">
+                Your Guide to the Land of the Rising song
+            </p>
+            <div class="copyright">
+                <h3>All rights reserved for Wilders to Japan©</h3>
+            </div>
+        </div>
+    
+    </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
