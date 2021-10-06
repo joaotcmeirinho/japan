@@ -25,7 +25,7 @@
 
 .container-joao {
     margin: auto;
-    width: 1600px;
+    width: 1500px;
     display: flex;
     align-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
@@ -52,7 +52,7 @@
 
 .image-joao {
     width: 900px;
-    margin-left: 350px;
+    margin-left: 290px;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
@@ -85,7 +85,7 @@
     
     .image-joao{
         width: 350px;
-        margin-left: 600px;
+        margin-left: 575px;
     }
 
     .article-joao{
