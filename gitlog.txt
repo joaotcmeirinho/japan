@@ -1,0 +1,278 @@
+commit abb7bd34cb1a2a13dcf5e8d265b1f5a949c084e1
+Author: Cuong Nguyen <cuong.shodan@gmail.com>
+Date:   Fri Oct 1 14:33:00 2021 +0100
+
+    CU debug slide on index - OK
+
+commit 104b57a7609afc371f95ca9a79c275de670c8cfd
+Merge: 96be1c2 0ef3090
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Fri Oct 1 10:23:54 2021 +0100
+
+    Merge pull request #11 from cuongshodan/Cuong
+    
+    debug css by cuong1
+
+commit 0ef3090200760acba75e9574f051146212f75a81
+Author: Cuong Nguyen <cuong.shodan@gmail.com>
+Date:   Fri Oct 1 10:23:26 2021 +0100
+
+    debug css by cuong1
+
+commit 96be1c27142b6d5414539c74004f8499c9b6093d
+Merge: 473776e 7014f49
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Fri Oct 1 10:07:50 2021 +0100
+
+    Merge pull request #10 from cuongshodan/Serhiy
+    
+    fixed size problems
+
+commit 7014f49a9cb02627f15d6a8c7cfa1159d888eb38
+Merge: 598b549 473776e
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Fri Oct 1 10:07:34 2021 +0100
+
+    Merge branch 'main' into Serhiy
+
+commit 598b5494ed6860619fe8050223242aa1746c4693
+Author: Serhiy Korotych <serhiykorotych@hotmail.com>
+Date:   Fri Oct 1 10:04:50 2021 +0100
+
+    fixed size problems
+
+commit 473776e9498938571a76ea2e189e0de674331824
+Merge: 9ad394d 5a39290
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Fri Oct 1 10:02:56 2021 +0100
+
+    Merge pull request #9 from cuongshodan/natalie
+    
+    Natalie
+
+commit 5a39290259b7f945ebdba1ab128a412dcbe0e4b5
+Merge: cc9a799 9ad394d
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Fri Oct 1 10:02:47 2021 +0100
+
+    Merge branch 'main' into natalie
+
+commit 9ad394d11437334a31921a653cdc807a09edd187
+Merge: 448ddc4 677198a
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Fri Oct 1 09:52:06 2021 +0100
+
+    Merge pull request #8 from cuongshodan/Serhiy
+    
+    Serhiy
+
+commit 677198a41f02ff901ddffa08548a1a21e27238b5
+Author: Serhiy Korotych <serhiykorotych@hotmail.com>
+Date:   Fri Oct 1 09:45:14 2021 +0100
+
+    fixed the style to work with most phones
+
+commit 58028e5ecf158a290fa92541edde418743334e5a
+Author: Serhiy Korotych <serhiykorotych@hotmail.com>
+Date:   Fri Oct 1 09:22:05 2021 +0100
+
+    changed the <a into the <li>
+
+commit 448ddc4af1812f4b270723afff3892b30776d4f4
+Merge: 5fd25e1 30b5b7f
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Fri Oct 1 09:08:22 2021 +0100
+
+    Merge pull request #7 from cuongshodan/Serhiy
+    
+    updated index
+
+commit 30b5b7ffe8de7d008efff96af691bbdd82fea56a
+Merge: c982fff 5fd25e1
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Fri Oct 1 09:08:13 2021 +0100
+
+    Merge branch 'main' into Serhiy
+
+commit c982fff14ef0926107130aa2084888969f529ab7
+Author: Serhiy Korotych <serhiykorotych@hotmail.com>
+Date:   Fri Oct 1 08:50:26 2021 +0100
+
+    updated index
+
+commit cc9a799772ff76f361e8aa315a1972fc2288def7
+Merge: 12683a7 a171026
+Author: Natalie Acevedo <natalieacevedo25@gmail.com>
+Date:   Thu Sep 30 23:19:50 2021 +0100
+
+    Merge Susana into natalie
+
+commit 12683a770585c060e31e93898e3ace357e2dfb22
+Author: Natalie Acevedo <natalieacevedo25@gmail.com>
+Date:   Thu Sep 30 23:16:48 2021 +0100
+
+    Introduction and some styles
+
+commit 5fd25e1b2b8968b5243071ec622a6124d9eaaf42
+Merge: cd09f16 7093d63
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Thu Sep 30 20:21:50 2021 +0100
+
+    Merge pull request #6 from cuongshodan/revert-4-Susana
+    
+    Revert "Susana"
+
+commit 7093d63b533ddcd61b642ba246e39a5fe1f6e549
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Thu Sep 30 20:21:31 2021 +0100
+
+    Revert "Susana"
+
+commit cd09f16bf7adf3379927328df3bc8d9f0b417895
+Merge: 1973740 0792339
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Thu Sep 30 20:16:55 2021 +0100
+
+    Merge pull request #5 from cuongshodan/revert-4-Susana
+    
+    Revert "Susana"
+
+commit 079233906c100b185f1223699b3e2294a4fb0f90
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Thu Sep 30 20:16:02 2021 +0100
+
+    Revert "Susana"
+
+commit 1973740a23bcdc4b375891ef27fa9825cbdd4431
+Merge: dda2257 a171026
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Thu Sep 30 19:46:42 2021 +0100
+
+    Merge pull request #4 from cuongshodan/Susana
+    
+    Susana
+
+commit a171026a1486394398ae51220e98f996e8a0906f
+Merge: c23909b dda2257
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Thu Sep 30 19:46:35 2021 +0100
+
+    Merge branch 'main' into Susana
+
+commit dda2257cfab33e9a4f1a0fe85a9361058f871e15
+Merge: ba5e38b 037a153
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Thu Sep 30 19:43:16 2021 +0100
+
+    Merge pull request #1 from cuongshodan/Cuong
+    
+    add Readme and branch Cuong
+
+commit c23909bc5c010cc1cb284cbd041762db8f21442d
+Author: SusanaAlvarezZuluaga <susialvarezzuluaga@hotmail.com>
+Date:   Thu Sep 30 17:00:06 2021 +0100
+
+    improves in the design of the places site
+
+commit ba5e38bdde8d34086b83af396bf3b6add3830d36
+Merge: 6dd0424 5785fa6
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Thu Sep 30 16:25:10 2021 +0100
+
+    Merge pull request #3 from cuongshodan/natalie
+    
+    Natalie
+
+commit 5785fa67131945c09e1c19705a1cc43bfa66ffef
+Author: Natalie Acevedo <natalieacevedo25@gmail.com>
+Date:   Thu Sep 30 16:20:58 2021 +0100
+
+    serhiy picture
+
+commit c58c91ee338fcf7f4d68f9ece84fc875b843665f
+Merge: a2e42ee 6dd0424
+Author: Natalie Acevedo <natalieacevedo25@gmail.com>
+Date:   Thu Sep 30 15:26:22 2021 +0100
+
+    acepting changes
+
+commit a2e42ee1d67ae59c141f2278d606295c2a61b546
+Author: Natalie Acevedo <natalieacevedo25@gmail.com>
+Date:   Thu Sep 30 14:57:09 2021 +0100
+
+    carrousel kind of done with only 2 breakpoints
+
+commit 6dd04243d0884f59f1e3bbdc9eefc4f012353d4c
+Merge: 32e6d3e 86cb817
+Author: cuongshodan <39064442+cuongshodan@users.noreply.github.com>
+Date:   Thu Sep 30 14:16:17 2021 +0100
+
+    Merge pull request #2 from cuongshodan/Serhiy
+    
+    Serhiy
+
+commit 86cb81726b828abcbfe2aec8a8cc5e0697e12600
+Author: Serhiy Korotych <serhiykorotych@hotmail.com>
+Date:   Thu Sep 30 13:57:18 2021 +0100
+
+    made the footer
+
+commit 81ece2dac95732156869c3b19d87c15b1634b801
+Author: Serhiy Korotych <serhiykorotych@hotmail.com>
+Date:   Thu Sep 30 11:45:32 2021 +0100
+
+    header
+
+commit 65551db03b41cc468726d35d2433badaff27125c
+Author: Natalie Acevedo <natalieacevedo25@gmail.com>
+Date:   Thu Sep 30 11:14:47 2021 +0100
+
+    slide looks great on big screen but the default had to be movil, go to work on that
+
+commit 1b62a64399a7173d455ca71f5636f8db97d1bbd2
+Author: Natalie Acevedo <natalieacevedo25@gmail.com>
+Date:   Thu Sep 30 10:52:10 2021 +0100
+
+    carrousel is working but I have to hide the pictures that are not in the index 0
+
+commit b1615077d9ea12ba82c50c5bcfd1996040951a01
+Author: SusanaAlvarezZuluaga <susialvarezzuluaga@hotmail.com>
+Date:   Thu Sep 30 00:13:12 2021 +0100
+
+    first version of places to visit
+
+commit 59f19601adaedd74bc2bc56e1ec9be15fed88642
+Author: Natalie Acevedo <natalieacevedo25@gmail.com>
+Date:   Wed Sep 29 22:42:53 2021 +0100
+
+    finally was able to find the mistake of right button
+
+commit 54bdd567fea9bc9f5371131bf4ae9c796b4c9b55
+Author: Natalie Acevedo <natalieacevedo25@gmail.com>
+Date:   Wed Sep 29 16:09:40 2021 +0100
+
+    pushing failed code
+
+commit 037a153034f11c162a5c0946b4fa33066ffada6b
+Author: Cuong Nguyen <cuong.shodan@gmail.com>
+Date:   Wed Sep 29 15:00:52 2021 +0100
+
+    add Readme and branch Cuong
+
+commit 32e6d3e41821b19f95532c9c687912280fd2f9c4
+Author: Natalie Acevedo <natalieacevedo25@gmail.com>
+Date:   Wed Sep 29 14:52:32 2021 +0100
+
+    sending the pictures I have
+
+commit b70fa0264c09f8cacfa6c202fde9ce0226e9a6f8
+Author: Natalie Acevedo <natalieacevedo25@gmail.com>
+Date:   Mon Sep 27 11:19:46 2021 +0100
+
+    creation of all the pages
+
+commit 6b324d7d87b1e614c216dd7cd31939529706561b
+Author: joaotcmeirinho <84629715+joaotcmeirinho@users.noreply.github.com>
+Date:   Mon Sep 27 11:01:00 2021 +0100
+
+    Initial commit
