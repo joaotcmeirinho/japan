@@ -132,10 +132,6 @@ body {
 
 
 
-#introduction {
-  text-align-last: center;
-  font-size: 1rem;
-}
 
 #mainNav {
   overflow: auto;
@@ -263,7 +259,6 @@ body {
 
   #introduction {
     text-align-last: center;
-    font-size: 5rem;
   }
 }
 
@@ -279,5 +274,8 @@ body {
   }
 }
 .skHeader {
+  width: 100%;
+}
+.footer{
   width: 100%;
 }
