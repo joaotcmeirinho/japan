@@ -192,7 +192,50 @@ function displayFood(){
   }
 }
 
+//culture page 
+const culturalAspect = [
+  {
+    name: "Sumo",
+    type: "Sport",
+    sliderPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
+    popUpPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
+    description: "Sumo is Japan's national sport, a uniquely Japanese pursuit involving physical strength, strictly observed ritual, a complex code of behaviour, religious overtones, a daunting hierarchy system and feudalistic training regimes. It originated 15 centuries ago in ancient Shinto ceremonies.",
+  },
+  {
+    name: "Sumo",
+    type: "Sport",
+    sliderPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
+    popUpPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
+    description: "Sumo is Japan's national sport, a uniquely Japanese pursuit involving physical strength, strictly observed ritual, a complex code of behaviour, religious overtones, a daunting hierarchy system and feudalistic training regimes. It originated 15 centuries ago in ancient Shinto ceremonies.",
+},
 
+{
+  name: "Sumo",
+  type: "Sport",
+  sliderPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
+  popUpPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
+  description: "Sumo is Japan's national sport, a uniquely Japanese pursuit involving physical strength, strictly observed ritual, a complex code of behaviour, religious overtones, a daunting hierarchy system and feudalistic training regimes. It originated 15 centuries ago in ancient Shinto ceremonies.",
+},
 
+{
+  name: "Sumo",
+  type: "Sport",
+  sliderPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
+  popUpPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
+  description: "Sumo is Japan's national sport, a uniquely Japanese pursuit involving physical strength, strictly observed ritual, a complex code of behaviour, religious overtones, a daunting hierarchy system and feudalistic training regimes. It originated 15 centuries ago in ancient Shinto ceremonies.",
+},
+{
+  name: "Sumo",
+  type: "Sport",
+  sliderPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
+  popUpPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
+  description: "Sumo is Japan's national sport, a uniquely Japanese pursuit involving physical strength, strictly observed ritual, a complex code of behaviour, religious overtones, a daunting hierarchy system and feudalistic training regimes. It originated 15 centuries ago in ancient Shinto ceremonies.",
+}
+];
+function displayCulture(){
+  for(let i=0;i<culturalAspect.length;i++){
+    createCard(culturalAspect[i].name,culturalAspect[i].type,culturalAspect[i].sliderPicture,culturalAspect[i].popUpPicture,culturalAspect[i].description);
+  }
+}
 
 
