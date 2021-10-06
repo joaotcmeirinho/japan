@@ -1,3 +1,102 @@
+
+#close {
+    width: 8px;
+    height: 16px;
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    color: black;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 1475px;
+}
+
+#close:hover {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+    color:#fff;
+}
+
+.container-joao {
+    margin: auto;
+    width: 1500px;
+    display: flex;
+    align-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FCEEEE;
+}
+
+.section-joao {
+    margin-top: 125px;
+    margin-right: 100px;
+}
+
+.article-joao {
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 25px;
+    padding: 50px;
+    margin-top: 175px;
+    margin-left: 250px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    line-height: 50px;
+}
+
+.image-joao {
+    width: 900px;
+    margin-left: 290px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    padding: 20px;
+   }
+
+
+.title-joao {
+    text-align: center; 
+    font-size: 4em;
+    color:white;
+    background-color: #FF4D4D;
+    border: 2px solid #FF4D4D;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.description-joao {
+    text-align: center;
+    font-size: 2em;
+    color: #4B5C7F;
+    margin-top: 30px;
+}
+
+
+@media (min-width: 1024px) {
+    
+    
+    .image-joao{
+        width: 350px;
+        margin-left: 575px;
+    }
+
+    .article-joao{
+        margin-top: 100px;
+    }
+
+    .section-joao{
+        margin-top: 50px;
+    }
+} 
+
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +106,11 @@
 body {
   margin: 0;
   padding: 0;
-  color: #FF4D4D;
+  color: #ff4d4d;
   font-family: "Explora", cursive;
-  
 }
 
-
 /* this is the burger button menu*/
-
 #menuToggle {
   width: 15%;
   display: flex;
@@ -23,23 +119,17 @@ body {
   margin-top: 65px;
   margin-right: 5vh;
   margin-left: 5vh;
-
+  z-index: 1;
 
   -webkit-user-select: none;
   user-select: none;
 }
 
-.navigation {
-  z-index: 3;
-}
-
 #menuToggle input {
   display: block;
-
   width: 40px;
-  height: 25px;
   position: absolute;
-  bottom: -25px;
+  bottom: -20px;
   left: -5px;
   cursor: pointer;
   opacity: 0;
@@ -54,20 +144,22 @@ body {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
+  background: #ff4d4d;
 
-  background: #FF4D4D;
+
+
 
   border-radius: 4vh;
   z-index: 1;
   transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-    opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
 
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #FF4D4D;
+  background: #ff4d4d;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -85,18 +177,12 @@ body {
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-
   background: white;
   list-style-type: none;
-
   -webkit-font-smoothing: antialiased;
-
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-
-
 }
 
 #menu a {
@@ -108,6 +194,7 @@ body {
 #menuToggle input:checked ~ ul {
   transform: none;
 }
+
 .LogoImg {
   width: 50%;
   display: flex;
@@ -116,7 +203,6 @@ body {
   margin: 5px;
   position: relative;
   top: 42px;
-  
 }
 /*Fixed the title to the middle*/
 .middleTitle {
@@ -130,28 +216,28 @@ body {
   height: 10vh;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5vh;
   background-color: white;
 }
 
 
-
-
-
-
+#introduction {
+  text-align-last: center;
+  font-size: 1rem;
+}
 
 #mainNav {
   overflow: auto;
   height: 20%;
   background-color: blueviolet;
-  
 }
 
 .slider {
-  width: 100vw;
-  height: 40vh;
+  max-width: 100%;
+  height: 100vh;
   position: relative;
   overflow: hidden;
-  margin-top: 15vh;
+  /* margin-top: 15vh; */
 }
 
 .slider__btn {
@@ -180,20 +266,18 @@ body {
 }
 
 .slider__btn--left {
-  left: 9%;
+  left: 2%;
   transform: translate(-50%, -50%);
 }
 
 .slider__btn--right {
-  right: 9%;
+  right: 2%;
   transform: translate(50%, -50%);
 }
 
 #bodyPictureNatalie {
   background-image: url(pictures/blackbackground.jpg);
 }
-
-
 
 .FootContainer {
   width: 100%;
@@ -210,8 +294,6 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
-
-
 
 @media screen and (min-width: 780px) {
   .slide {
@@ -238,13 +320,13 @@ body {
     transition: transform 1s;
   }
 
-  .slider {
+  /* .slider {
     max-width: 80rem;
     height: 50rem;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-  }
+  } */
 
   .slider__btn {
     position: absolute;
@@ -265,10 +347,9 @@ body {
 
   #introduction {
     text-align-last: center;
+    font-size: 5rem;
   }
 }
-
-
 
 @media only screen and (max-width: 400px) {
   h1 {
@@ -282,6 +363,4 @@ body {
 .skHeader {
   width: 100%;
 }
-.footer{
-  width: 100%;
-}
+
