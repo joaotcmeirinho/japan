@@ -22,14 +22,14 @@ let cameraGirl = document.getElementById('chicacamara');
 
  sun.style.transitionTimingFunction = 'ease';
 
- sun.style.transform = `translateY(-850px)`;
+ sun.style.transform = `translateY(-550px)`;
 
 ////////////////////////////////////////////////////////////////
 
 
 //moving girl:
 
-cameraGirl.style.transform = `translateX(300px)`;
+cameraGirl.style.transform = `translateX(150px)`;
 
 //slider.style.transform = `scale(0.5) translatex(-300px)`;
 
