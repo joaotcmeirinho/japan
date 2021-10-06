@@ -9,10 +9,13 @@
    box-sizing: border-box;
 }
 
+.places-food-culture-page{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 .container{
    height: 100h;
-   margin: 0vh;
-   padding: 0vh;
    width: 100%;
    align-items: center;
    background-color: #FCEEEE;
@@ -49,7 +52,6 @@
    inset rgba(white, 0.5) 0 0 0 6px;
 
 }
-
 .card:hover {
    cursor: pointer;
    transform: rotate(0deg) scale(1) translateY(10px);
@@ -211,4 +213,3 @@
       font-size: 14px;
    }
 }
-
