@@ -140,7 +140,7 @@ body {
 
 #introduction {
   text-align-last: center;
-  font-size: 1rem;
+  font-size: 10px;
 }
 
 #mainNav {
@@ -201,11 +201,13 @@ body {
 
 .FootContainer {
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   background-color: white;
   padding: 0;
   margin: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 /* fixed the copyright text to the middle*/
@@ -269,7 +271,7 @@ body {
 
   #introduction {
     text-align-last: center;
-    font-size: 5rem;
+    font-size: 2rem;
   }
 }
 
