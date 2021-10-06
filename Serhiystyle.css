@@ -23,10 +23,14 @@ body {
   margin-top: 65px;
   margin-right: 5vh;
   margin-left: 5vh;
-  z-index: 1;
+
 
   -webkit-user-select: none;
   user-select: none;
+}
+
+.navigation {
+  z-index: 3;
 }
 
 #menuToggle input {
@@ -91,6 +95,8 @@ body {
   transform: translate(-100%, 0);
 
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
+
 }
 
 #menu a {

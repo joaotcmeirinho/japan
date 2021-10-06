@@ -19,11 +19,11 @@
 
 </head>
 
-<body>
+<body class="places-food-culture-page">
   <header class="skHeader">
     <div id="menuToggle">
 
-      <nav role="navigation">
+      <nav class="navigation">
         <input type="checkbox" />
         <span></span>
         <span></span>
@@ -72,6 +72,13 @@
           </div> -->
       </div>
     </section>
+    <footer>
+      <div class="FootContainer">
+        <div class="copyright">
+          <h3>All rights reserved for Wilders to Japan©</h3>
+        </div>
+      </div>
+    </footer>
     <!-- here come the popups -->
     <div class="pop-up" id="Mount Fuji">
       <button class="close-button" onclick="hidePopUp('Sushi')">x</button>
@@ -84,49 +91,44 @@
           ingredient is "sushi rice", also referred to as shari or sumeshi </p>
       </article>
     </div>
+  </div>
 
-    <footer>
-      <div class="FootContainer">
-        <div class="copyright">
-          <h3>All rights reserved for Wilders to Japan©</h3>
-        </div>
-      </div>
-    </footer>
+  
 
 
-    <script src="scriptSusana.js"></script>
-    <script>
-      displayFood();
-      //carrousel thing
-      $(".carousel").owlCarousel({
-        margin: 20,
-        loop: true,
-        autoplay: false,
-        responsiveClass: true,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false,
-            stagePadding: 50,
-          },
-          400: {
-            items: 1,
-            nav: false,
-            stagePadding: 100,
-          },
-          1000: {
-            items: 1,
-            nav: false,
-            stagePadding: 150,
-          },
-          1500: {
-            items: 1,
-            nav: false,
-            stagePadding: 200,
-          }
+  <script src="scriptSusana.js"></script>
+  <script>
+    displayFood();
+    //carrousel thing
+    $(".carousel").owlCarousel({
+      margin: 20,
+      loop: true,
+      autoplay: false,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false,
+          stagePadding: 50,
+        },
+        400: {
+          items: 1,
+          nav: false,
+          stagePadding: 100,
+        },
+        1000: {
+          items: 1,
+          nav: false,
+          stagePadding: 150,
+        },
+        1500: {
+          items: 1,
+          nav: false,
+          stagePadding: 200,
         }
-      });
-    </script>
+      }
+    });
+  </script>
 </body>
 
 </html>
