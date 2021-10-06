@@ -1,33 +1,21 @@
-
- /* PLACES FOOD AND CULTURE CSS*/
- .susanas-page{
+.places-food-culture-page{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: 'Comfortaa', cursive;
-   font-family: 'Noto Sans', sans-serif;
 }
 .container{
    height: 100h;
    width: 100%;
    align-items: center;
    background-color: #FCEEEE;
-}
-header{
-   height: 10vh;
-   background-color: white;
-   color:#ff4d4d;
-}
-footer{
-   height: 10vh;
-   background-color: white;
-   margin: 0%;
-   color:#ff4d4d;
+   z-index: -1;
 }
 .page-content{
+
    margin-top: 5vh;
    margin-bottom: 5vh;
 }
+
 .page-title{
    width: 100%;
    height: 5vh;
