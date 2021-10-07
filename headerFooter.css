@@ -7,8 +7,9 @@
 body {
   margin: 0;
   padding: 0;
-  color: #FF4D4D;
-  font-family: "Explora", cursive;
+  color: #ff4d4d;
+  font-family: 'BioRhyme', serif;
+  
   
 }
 
@@ -131,6 +132,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #fceeee;
+ 
 }
 
 
@@ -140,7 +142,7 @@ body {
 
 #introduction {
   text-align-last: center;
-  font-size: 1rem;
+  font-size: 10px;
 }
 
 #mainNav {
@@ -194,18 +196,20 @@ body {
 }
 
 #bodyPictureNatalie {
-  background-image: url(pictures/blackbackground.jpg);
+  background-image: url("pictures/blackbackground.jpg");
 }
 
 
 
 .FootContainer {
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   background-color: #fceeee;
   padding: 0;
   margin: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 /* fixed the copyright text to the middle*/
@@ -256,7 +260,7 @@ body {
     z-index: 10;
     border: none;
     background: rgba(255, 255, 255, 0.7);
-    font-family: inherit;
+    font-family: 'BioRhyme', serif;
     color: #333;
     border-radius: 50%;
     height: 4rem;
@@ -269,7 +273,7 @@ body {
 
   #introduction {
     text-align-last: center;
-    font-size: 5rem;
+    font-size: 2rem;
   }
 }
 
