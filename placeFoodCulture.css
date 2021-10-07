@@ -15,7 +15,7 @@
    padding: 0vh;
    width: 100%;
    align-items: center;
-   background-color: #FCEEEE;
+   background: linear-gradient( #114357,#f29492);
    z-index: -1;
 }
 .page-content{
