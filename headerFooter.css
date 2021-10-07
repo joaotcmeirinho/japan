@@ -138,13 +138,10 @@ body {
 
 
 
-<<<<<<< HEAD:Serhiystyle.css
-=======
 #introduction {
   text-align-last: center;
   font-size: 10px;
 }
->>>>>>> ddb23e9c22c4a600bba7a852bc33901bb160bc81:headerFooter.css
 
 #mainNav {
   overflow: auto;
@@ -274,11 +271,13 @@ body {
 
   #introduction {
     text-align-last: center;
-<<<<<<< HEAD:Serhiystyle.css
-=======
     font-size: 2rem;
->>>>>>> ddb23e9c22c4a600bba7a852bc33901bb160bc81:headerFooter.css
   }
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
 }
 
 
