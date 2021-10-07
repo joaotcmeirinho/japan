@@ -1,16 +1,25 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <title>Aspects of the culture in Japan</title>
+  <link rel="stylesheet" href="headerFooter.css">
+  <link rel="stylesheet" href="placeFoodCulture.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wilders to Japan</title>
-  <link href="Serhiystyle.css" rel="stylesheet" type="text/css" />
+  <!-- owl carrousel -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <!-- font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <meta name="viewport" content="width=width-device, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Noto+Sans&display=swap"
+    rel="stylesheet">
+
+
 </head>
 
-<body>
+<body class="places-food-culture-page">
   <header class="skHeader">
     <div id="menuToggle">
 
@@ -19,21 +28,22 @@
         <span></span>
         <span></span>
         <span></span>
+        <!--Natallie asked me to place the "a href" inside the <li>-->
         <ul id="menu">
-          
-            <li><a href="places.html" style="text-decoration:none">Places to Visit</li>
+
+          <li><a href="places.html" style="text-decoration:none">Places to Visit</li>
           </a>
-          
-            <li><a href="food.html" style="text-decoration:none">Food in Japan</li>
+
+          <li><a href="food.html" style="text-decoration:none">Food in Japan</li>
           </a>
-          
-            <li><a href="culture.html" style="text-decoration:none">Culture in Japan</li>
+
+          <li><a href="culture.html" style="text-decoration:none">Culture in Japan</li>
           </a>
-          
-            <li><a href="game.html" style="text-decoration:none">Game</li>
+
+          <li><a href="game.html" style="text-decoration:none">Game</li>
           </a>
-         
-            <li><a href="contact.html"style="text-decoration:none">Contact us</li>
+
+          <li><a href="contact.html" style="text-decoration:none">Contact us</li>
           </a>
         </ul>
       </nav>
@@ -43,17 +53,82 @@
     </div>
     <div class="LogoImg">
       <a href="index.html">
-      <img src="assets/logo.png" alt="Logo" width="100" \></a>
+        <img src="assets/logo.png" alt="Logo" width="100" \></a>
     </div>
   </header>
-</body>
-<footer>
-  <div class="FootContainer">
-    <div class="copyright">
-      <h3>All rights reserved for Wilders to Japan©</h3>
+
+  <div class="container">
+    <!--page content -->
+    <section class="page-content">
+      <h1 class="page-title">Aspects of the culture in Japan</h1>
+      <div class="carousel owl-carousel">
+        <!-- <div class="card" onclick = "showPopUp('Sushi')" >
+             <div class="card-empty-space"></div>
+             <div class="card-info">
+                <div class="card-title">Sushi</div>
+                <div class="card-type">Raw</div>
+             </div>
+             <div class="card-empty-space"></div>
+          </div> -->
+      </div>
+    </section>
+    <footer>
+      <div class="FootContainer">
+        <div class="copyright">
+          <h3>All rights reserved for Wilders to Japan©</h3>
+        </div>
+      </div>
+    </footer>
+    <!-- here come the popups -->
+    <div class="pop-up" id="Mount Fuji">
+      <button class="close-button" onclick="hidePopUp('Sushi')">x</button>
+      <div class="image-pop-up"></div>
+      <article class="article-pop-up">
+        <h1 class="title-pop-up">Sushi</h1>
+        <p class="description-pop-up"> Sushi is a traditional Japanese dish of prepared vinegared rice (鮨飯,
+          sushi-meshi), usually with some sugar and salt, accompanied by a variety of ingredients (ネタ, neta), such as
+          seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key
+          ingredient is "sushi rice", also referred to as shari or sumeshi </p>
+      </article>
     </div>
   </div>
 
-</footer>
+  
+
+
+  <script src="placeFoodCulture.js"></script>
+  <script>
+    displayCulture();
+    //carrousel thing
+    $(".carousel").owlCarousel({
+      margin: 20,
+      loop: true,
+      autoplay: false,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false,
+          stagePadding: 50,
+        },
+        400: {
+          items: 1,
+          nav: false,
+          stagePadding: 100,
+        },
+        1000: {
+          items: 1,
+          nav: false,
+          stagePadding: 150,
+        },
+        1500: {
+          items: 1,
+          nav: false,
+          stagePadding: 200,
+        }
+      }
+    });
+  </script>
+</body>
 
 </html>
