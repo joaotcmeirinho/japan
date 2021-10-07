@@ -149,24 +149,30 @@ function displayPlaces(){
 const foodToEat = [
   {
     name: "Sushi",
-    type: "raw",
-    sliderPicture:"https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/0749D9BC-260D-40F4-A07F-54814C4A82B4/Derivates/A73A7793-F3EE-4B90-ABA4-1CC1A0C3E18F.jpg",
-    popUpPicture:"https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/0749D9BC-260D-40F4-A07F-54814C4A82B4/Derivates/A73A7793-F3EE-4B90-ABA4-1CC1A0C3E18F.jpg",
+    type: "Raw",
+    sliderPicture:"https://xtudoreceitas.com/wp-content/uploads/Sushi.jpg",
+    popUpPicture:"pictures/food/tempura.jpg",
     description: "Sushi is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanied by a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is 'sushi rice', also referred to as shari or sumeshi",
   },
   {
-  
   name: "Ramen",
   type: "Soup",
-  sliderPicture:"https://www.thewholeworldisaplayground.com/wp-content/uploads/2016/12/Japan-Must-Eats-Best-Food-3.webp",
-  popUpPicture:"https://www.thewholeworldisaplayground.com/wp-content/uploads/2016/12/Japan-Must-Eats-Best-Food-3.webp",
+  sliderPicture:"pictures/food/FRS_6354.JPG",
+  popUpPicture:"pictures/food/ramen.jpg",
   description: "this is a place bla bla bla",
-},
+  },
+  {
+    name: "Okonomiyaki",
+    type: "Soup",
+    sliderPicture:"pictures/food/FRS_1892.jpg",
+    popUpPicture:"pictures/food/okonomiyaki.jpg",
+    description: "this is a place bla bla bla",
+    },
 
 {
   name: "Tempura",
   type: "fried",
-  sliderPicture: "https://resources.matcha-jp.com/archive_files/jp/2015/09/ginza_gonpachi_20140914v.jpg",
+  sliderPicture: "https://simplyhomecooked.com/wp-content/uploads/2019/12/shrimp-tempura-recipe-8.jpg",
   popUpPicture:"https://resources.matcha-jp.com/archive_files/jp/2015/09/ginza_gonpachi_20140914v.jpg",
   description: "this is a  food bla bla bla",
 },

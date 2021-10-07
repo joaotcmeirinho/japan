@@ -42,6 +42,8 @@
    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
    background-size: cover;
    background-repeat: no-repeat;
+   background-size: cover;
+
    box-shadow: rgba(black, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
    inset rgba(white, 0.5) 0 0 0 6px;
 
@@ -80,7 +82,7 @@
    padding: 0px;
    font-family: "Playfair Display";
    font-size: 24px;
-   font-weight: 700;
+   font-weight: 900;
    margin-left:5px;
 }
 .card-type{
@@ -89,7 +91,9 @@
    margin: 0px;
    padding:  0px;
    font-size: 20px;
+   font-weight:bolder;
    margin-left:5px;
+   font-family: "Playfair Display";
 }      
 
 /* POPUP STUFF */
@@ -128,8 +132,7 @@
    border-bottom-right-radius: 50% 50%;
    border-bottom-left-radius: 50% 50%;
    margin-bottom:0vh;
-   background-repeat:round;
-   background-size: contain;
+   background-repeat: no-repeat;
 }
 
 .article-pop-up {
