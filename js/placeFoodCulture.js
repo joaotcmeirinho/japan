@@ -67,11 +67,17 @@ function createCard(name,type,sliderPicture,popUpPicture,description){
     closeButton.innerHTML='x'
     popUp.appendChild(closeButton);
 
-    //add the image of the popup
-    const imagePopUp=document.createElement('div');
+    //add the image holder of the popup
+    const imageHolderPopUp=document.createElement('div');
+    imageHolderPopUp.classList.add('image-holder-pop-up');
+    popUp.appendChild(imageHolderPopUp);
+
+    //add the image to the holder 
+    const imagePopUp=document.createElement('img');
     imagePopUp.classList.add('image-pop-up');
-    imagePopUp.style.backgroundImage=`url(${popUpPicture})`;
-    popUp.appendChild(imagePopUp);
+    imagePopUp.src=popUpPicture;
+    imageHolderPopUp.appendChild(imagePopUp);
+
 
     // add the article of the popup
     const articlePopUp=document.createElement('div');
@@ -149,41 +155,40 @@ function displayPlaces(){
 const foodToEat = [
   {
     name: "Sushi",
-    type: "raw",
-    sliderPicture:"https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/0749D9BC-260D-40F4-A07F-54814C4A82B4/Derivates/A73A7793-F3EE-4B90-ABA4-1CC1A0C3E18F.jpg",
-    popUpPicture:"https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/0749D9BC-260D-40F4-A07F-54814C4A82B4/Derivates/A73A7793-F3EE-4B90-ABA4-1CC1A0C3E18F.jpg",
-    description: "Sushi is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanied by a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is 'sushi rice', also referred to as shari or sumeshi",
+    type: "Raw",
+    sliderPicture:"pictures/food/sushi2.jpg",
+    popUpPicture:"pictures/food/sushi1.jpg",
+    description: "Sushi is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanied by a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is 'sushi rice', also referred to as shari.",
   },
   {
-  
   name: "Ramen",
   type: "Soup",
-  sliderPicture:"https://www.thewholeworldisaplayground.com/wp-content/uploads/2016/12/Japan-Must-Eats-Best-Food-3.webp",
-  popUpPicture:"https://www.thewholeworldisaplayground.com/wp-content/uploads/2016/12/Japan-Must-Eats-Best-Food-3.webp",
-  description: "this is a place bla bla bla",
-},
+  sliderPicture:"pictures/food/FRS_6354.JPG",
+  popUpPicture:"pictures/food/ramen.jpg",
+  description: "Quick-cooking egg noodle soup usually served in a broth with bits of meat and vegetables. Ramen was originally imported from China and has become one of the most popular dishes in Japan in recent decades. Ramen are inexpensive and widely available, two factors that make them an ideal option for budget travelers."
+  },
+  {
+    name: "Okonomiyaki",
+    type: "Pancake",
+    sliderPicture:"pictures/food/okonomiyaki.jpg",
+    popUpPicture:"pictures/food/okonomiyaki.jpg",
+    description: "Savory pancake dish consisting of wheat flour batter and other ingredients cooked on a teppan. Common additions include cabbage, meat, and seafood, and toppings include okonomiyaki sauce, aonori, katsuobushi, Japanese mayonnaise, and pickled ginger.",
+    },
 
 {
   name: "Tempura",
-  type: "fried",
-  sliderPicture: "https://resources.matcha-jp.com/archive_files/jp/2015/09/ginza_gonpachi_20140914v.jpg",
+  type: "Fried",
+  sliderPicture: "pictures/food/tempura.jpg",
   popUpPicture:"https://resources.matcha-jp.com/archive_files/jp/2015/09/ginza_gonpachi_20140914v.jpg",
-  description: "this is a  food bla bla bla",
+  description: "Typical Japanese dish usually consisting of seafood, meat and vegetables that have been battered and deep fried. The dish was introduced by Iberians in Nagasaki through the fritter-cooking techniques in the 16th century.",
 },
 
 {
-  name: "Shabu-shabu",
-  type: "hotpot",
-  sliderPicture: "https://www.thewholeworldisaplayground.com/wp-content/uploads/2016/12/Japan-Must-Eats-Best-Food-31.webp",
-  popUpPicture:"https://www.thewholeworldisaplayground.com/wp-content/uploads/2016/12/Japan-Must-Eats-Best-Food-31.webp",
-  description: "this is a place bla bla bla",
-},
-{
   name: "Tofu",
-  type: "vegetarian",
-  sliderPicture: "https://images.japancentre.com/page_elements/image1s/1515/original/tofu-bean-curd.jpg?1470240775",
+  type: "Vegetarian",
+  sliderPicture: "pictures/food/tofu.jpg",
   popUpPicture:"https://images.japancentre.com/page_elements/image1s/1515/original/tofu-bean-curd.jpg?1470240775",
-  description: "this is a place bla bla bla",
+  description: "Tofu, also known as bean curd ia a soft and xrelatively flavourless food product made from soybeans. Tofu is an important source of protein in the cuisines of China, Japan, Korea, and Southeast Asia. It is believed to date from the Han dynasty (206 BCE–220 CE). Tofu is made from dried soybeans that are soaked in water, crushed, and boiled.",
 }
 ];
 function displayFood(){
