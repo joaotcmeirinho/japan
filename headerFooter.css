@@ -45,7 +45,6 @@ body {
   cursor: pointer;
   opacity: 0;
   z-index: 2;
-  -webkit-touch-callout: none;
 }
 
 /*This is the button design*/
@@ -201,7 +200,7 @@ body {
 
 .FootContainer {
   width: 100%;
-  height: 15vh;
+  height: 10vh;
   background-color: #fceeee;
   padding: 0;
   margin: 0;
