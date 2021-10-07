@@ -1,58 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/headerFooter.css">
-  <link rel="stylesheet" href="./css/placeFoodCulture.css">
+    <link rel="stylesheet" href="./css/placeFoodCulture.css">
     <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap" rel="stylesheet">
     <title>Document</title>
-    <script src="js/helpers.js"></script>
+
     <style>
         main {
-            height: 800px;
-            background-color: yellow;
+            margin: auto;
+            width: 900px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fceeee;
         }
-        canvas {
-		background-color: #000;
-		display: block;
-		position: absolute;
-		margin: auto;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
+
+        h2 {
+            margin: 20px 0 20px 0px;
+        }
+
+        .LogoImg {
+            top: 37px;
+        }
+
+        .space-invaders {
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+
+            width: 300px;
+        }
+
+        .space-invaders-game {
+            border: px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* CSS */
+        .button-49,
+        .button-49:after {
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 150px;
+            height: 76px;
+            line-height: 78px;
+            font-size: 20px;
+            font-family: 'Bebas Neue', sans-serif;
+            background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+            border: 0;
+            color: #fff;
+            letter-spacing: 3px;
+            box-shadow: 6px 0px 0px #00E6F6;
+            outline: transparent;
+            position: relative;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            cursor: pointer;
+            padding: 10px;
+            text-align: center;
+    
+        }
+
+        .button-49:after {
+            --slice-0: inset(50% 50% 50% 50%);
+            --slice-1: inset(80% -6px 0 0);
+            --slice-2: inset(50% -6px 30% 0);
+            --slice-3: inset(10% -6px 85% 0);
+            --slice-4: inset(40% -6px 43% 0);
+            --slice-5: inset(80% -6px 5% 0);
+
+            content: 'ALTERNATE TEXT';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+            text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+            clip-path: var(--slice-0);
+        }
+
+        .button-49:hover:after {
+            animation: 1s glitch;
+            animation-timing-function: steps(2, end);
+
+        }
+
+        @keyframes glitch {
+            0% {
+                clip-path: var(--slice-1);
+                transform: translate(-20px, -10px);
+            }
+
+            10% {
+                clip-path: var(--slice-3);
+                transform: translate(10px, 10px);
+            }
+
+            20% {
+                clip-path: var(--slice-1);
+                transform: translate(-10px, 10px);
+            }
+
+            30% {
+                clip-path: var(--slice-3);
+                transform: translate(0px, 5px);
+            }
+
+            40% {
+                clip-path: var(--slice-2);
+                transform: translate(-5px, 0px);
+            }
+
+            50% {
+                clip-path: var(--slice-3);
+                transform: translate(5px, 0px);
+            }
+
+            60% {
+                clip-path: var(--slice-4);
+                transform: translate(5px, 10px);
+            }
+
+            70% {
+                clip-path: var(--slice-2);
+                transform: translate(-10px, 10px);
+            }
+
+            80% {
+                clip-path: var(--slice-5);
+                transform: translate(20px, -10px);
+            }
+
+            90% {
+                clip-path: var(--slice-1);
+                transform: translate(-10px, 0px);
+            }
+
+            100% {
+                clip-path: var(--slice-1);
+                transform: translate(0);
+            }
+        }
+
+        @media (min-width: 768px) {
+
+            .button-49,
+            .button-49:after {
+                width: 500px;
+                height: 100px;
+                line-height: 88px;
+            }
+        }
     </style>
 </head>
+
 <body>
-    
+
 
     <div class="container">
         <header class="skHeader">
             <div id="menuToggle">
-        
-                <nav role="navigation">
+
+                <nav class="navigation">
                     <input type="checkbox" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <div class="btn_span">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
                     <!--Natallie asked me to place the "a href" inside the <li>-->
                     <ul id="menu">
-        
+
                         <li><a href="places.html" style="text-decoration:none">Places to Visit</li>
                         </a>
-        
+
                         <li><a href="food.html" style="text-decoration:none">Food in Japan</li>
                         </a>
-        
+
                         <li><a href="culture.html" style="text-decoration:none">Culture in Japan</li>
                         </a>
-        
+
                         <li><a href="game.html" style="text-decoration:none">Game</li>
                         </a>
-        
+
                         <li><a href="contact.html" style="text-decoration:none">Contact us</li>
                         </a>
                     </ul>
@@ -68,332 +215,72 @@
         </header>
         <main>
             <section>
-                <script>
-                    var
-                    
-                    /**
-                     * Game objects
-                     */
-                    display,
-                    input,
-                    frames,
-                    spFrame,
-                    lvFrame,
-                    
-                    alSprite,
-                    taSprite,
-                    ciSprite,
-                    
-                    aliens,
-                    dir,
-                    tank,
-                    bullets,
-                    cities;
-                    
-                    /**
-                     * Initiate and start the game
-                     */
-                    function main() {
-                        // create game canvas and inputhandeler
-                        display = new Screen(504, 600);
-                        input = new InputHandeler();
-                    
-                        // create all sprites fram assets image
-                        var img = new Image();
-                        img.addEventListener("load", function() {
-                    
-                            alSprite = [
-                                [new Sprite(this,  0, 0, 22, 16), new Sprite(this,  0, 16, 22, 16)],
-                                [new Sprite(this, 22, 0, 16, 16), new Sprite(this, 22, 16, 16, 16)],
-                                [new Sprite(this, 38, 0, 24, 16), new Sprite(this, 38, 16, 24, 16)]
-                            ];
-                            taSprite = new Sprite(this, 62, 0, 22, 16);
-                            ciSprite = new Sprite(this, 84, 8, 36, 24);
-                    
-                            // initate and run the game
-                            init();
-                            run();
-                        });
-                        img.src = "res/invaders.png";
-                    };
-                    
-                    /**
-                     * Initate game objects
-                     */
-                    function init() {
-                        // set start settings
-                        frames  = 0;
-                        spFrame = 0;
-                        lvFrame = 60;
-                    
-                        dir = 1;
-                    
-                        // create the tank object
-                        tank = {
-                            sprite: taSprite,
-                            x: (display.width - taSprite.w) / 2,
-                            y: display.height - (30 + taSprite.h)
-                        };
-                    
-                        // initatie bullet array
-                        bullets = [];
-                    
-                        // create the cities object (and canvas)
-                        cities = {
-                            canvas: null,
-                            ctx: 	null,
-                    
-                            y: tank.y - (30 + ciSprite.h),
-                            h: ciSprite.h,
-                    
-                            /**
-                             * Create canvas and game graphic context
-                             */
-                            init: function() {
-                                // create canvas and grab 2d context
-                                this.canvas = document.createElement("canvas");
-                                this.canvas.width = display.width;
-                                this.canvas.height = this.h;
-                                this.ctx = this.canvas.getContext("2d");
-                    
-                                for (var i = 0; i < 4; i++) {
-                                    this.ctx.drawImage(ciSprite.img, ciSprite.x, ciSprite.y,
-                                        ciSprite.w, ciSprite.h,
-                                        68 + 111*i, 0, ciSprite.w, ciSprite.h);
-                                }
-                            },
-                    
-                            /**
-                             * Create damage effect on city-canvas
-                             * 
-                             * @param  {number} x x-coordinate
-                             * @param  {number} y y-coordinate
-                             */
-                            generateDamage: function(x, y) {
-                                // round x, y position
-                                x = Math.floor(x/2) * 2;
-                                y = Math.floor(y/2) * 2;
-                                // draw dagame effect to canva
-                                this.ctx.clearRect(x-2, y-2, 4, 4);
-                                this.ctx.clearRect(x+2, y-4, 2, 4);
-                                this.ctx.clearRect(x+4, y, 2, 2);
-                                this.ctx.clearRect(x+2, y+2, 2, 2);
-                                this.ctx.clearRect(x-4, y+2, 2, 2);
-                                this.ctx.clearRect(x-6, y, 2, 2);
-                                this.ctx.clearRect(x-4, y-4, 2, 2);
-                                this.ctx.clearRect(x-2, y-6, 2, 2);
-                            },
-                    
-                            /**
-                             * Check if pixel at (x, y) is opaque
-                             * 
-                             * @param  {number} x x-coordinate
-                             * @param  {number} y y-coordinate
-                             * @return {bool}     boolean value if pixel opaque
-                             */
-                            hits: function(x, y) {
-                                // transform y value to local coordinate system
-                                y -= this.y;
-                                // get imagedata and check if opaque
-                                var data = this.ctx.getImageData(x, y, 1, 1);
-                                if (data.data[3] !== 0) {
-                                    this.generateDamage(x, y);
-                                    return true;
-                                }
-                                return false;
-                            }
-                        };
-                        cities.init(); // initiate the cities
-                    
-                        // create and populate alien array
-                        aliens = [];
-                        var rows = [1, 0, 0, 2, 2];
-                        for (var i = 0, len = rows.length; i < len; i++) {
-                            for (var j = 0; j < 10; j++) {
-                                var a = rows[i];
-                                // create right offseted alien and push to alien
-                                // array
-                                aliens.push({
-                                    sprite: alSprite[a],
-                                    x: 30 + j*30 + [0, 4, 0][a],
-                                    y: 30 + i*30,
-                                    w: alSprite[a][0].w,
-                                    h: alSprite[a][0].h
-                                });
-                            }
-                        }
-                    };
-                    
-                    /**
-                     * Wrapper around the game loop function, updates and renders
-                     * the game
-                     */
-                    function run() {
-                        var loop = function() {
-                            update();
-                            render();
-                    
-                            window.requestAnimationFrame(loop, display.canvas);
-                        };
-                        window.requestAnimationFrame(loop, display.canvas);
-                    };
-                    
-                    /**
-                     * Update the game logic
-                     */
-                    function update() {
-                        // update the frame count
-                        frames++;
-                    
-                        // update tank position depending on pressed keys
-                        if (input.isDown(37)) { // Left
-                            tank.x -= 4;
-                        }
-                        if (input.isDown(39)) { // Right
-                            tank.x += 4;
-                        }
-                        // keep the tank sprite inside of the canvas
-                        tank.x = Math.max(Math.min(tank.x, display.width - (30 + taSprite.w)), 30);
-                    
-                        // append new bullet to the bullet array if spacebar is
-                        // pressed
-                        if (input.isPressed(32)) { // Space
-                            bullets.push(new Bullet(tank.x + 10, tank.y, -8, 2, 6, "#fff"));
-                        }
-                    
-                        // update all bullets position and checks
-                        for (var i = 0, len = bullets.length; i < len; i++) {
-                            var b = bullets[i];
-                            b.update();
-                            // remove bullets outside of the canvas
-                            if (b.y + b.height < 0 || b.y > display.height) {
-                                bullets.splice(i, 1);
-                                i--;
-                                len--;
-                                continue;
-                            }
-                            // check if bullet hits any city
-                            var h2 = b.height * 0.5; // half hight is used for
-                                                     // simplicity
-                            if (cities.y < b.y+h2 && b.y+h2 < cities.y + cities.h) {
-                                if (cities.hits(b.x, b.y+h2)) {
-                                    bullets.splice(i, 1);
-                                    i--;
-                                    len--;
-                                    continue;
-                                }
-                            }
-                            // check if bullet hit any aliens
-                            for (var j = 0, len2 = aliens.length; j < len2; j++) {
-                                var a = aliens[j];
-                                if (AABBIntersect(b.x, b.y, b.width, b.height, a.x, a.y, a.w, a.h)) {
-                                    aliens.splice(j, 1);
-                                    j--;
-                                    len2--;
-                                    bullets.splice(i, 1);
-                                    i--;
-                                    len--;
-                                    // increase the movement frequence of the aliens
-                                    // when there are less of them
-                                    switch (len2) {
-                                        case 30: {
-                                            this.lvFrame = 40;
-                                            break;
-                                        }
-                                        case 10: {
-                                            this.lvFrame = 20;
-                                            break;
-                                        }
-                                        case 5: {
-                                            this.lvFrame = 15;
-                                            break;
-                                        }
-                                        case 1: {
-                                            this.lvFrame = 6;
-                                            break;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        // makes the alien shoot in an random fashion 
-                        if (Math.random() < 0.03 && aliens.length > 0) {
-                            var a = aliens[Math.round(Math.random() * (aliens.length - 1))];
-                            // iterate through aliens and check collision to make
-                            // sure only shoot from front line
-                            for (var i = 0, len = aliens.length; i < len; i++) {
-                                var b = aliens[i];
-                    
-                                if (AABBIntersect(a.x, a.y, a.w, 100, b.x, b.y, b.w, b.h)) {
-                                    a = b;
-                                }
-                            }
-                            // create and append new bullet
-                            bullets.push(new Bullet(a.x + a.w*0.5, a.y + a.h, 4, 2, 4, "#fff"));
-                        }
-                        // update the aliens at the current movement frequence
-                        if (frames % lvFrame === 0) {
-                            spFrame = (spFrame + 1) % 2;
-                    
-                            var _max = 0, _min = display.width;
-                            // iterate through aliens and update postition
-                            for (var i = 0, len = aliens.length; i < len; i++) {
-                                var a = aliens[i];
-                                a.x += 30 * dir;
-                                // find min/max values of all aliens for direction
-                                // change test
-                                _max = Math.max(_max, a.x + a.w);
-                                _min = Math.min(_min, a.x);
-                            }
-                            // check if aliens should move down and change direction
-                            if (_max > display.width - 30 || _min < 30) {
-                                // mirror direction and update position
-                                dir *= -1;
-                                for (var i = 0, len = aliens.length; i < len; i++) {
-                                    aliens[i].x += 30 * dir;
-                                    aliens[i].y += 30;
-                                }
-                            }
-                        }
-                    };
-                    
-                    /**
-                     * Render the game state to the canvas
-                     */
-                    function render() {
-                        display.clear(); // clear the game canvas
-                        // draw all aliens
-                        for (var i = 0, len = aliens.length; i < len; i++) {
-                            var a = aliens[i];
-                            display.drawSprite(a.sprite[spFrame], a.x, a.y);
-                        }
-                        // save contetx and draw bullet then restore
-                        display.ctx.save();
-                        for (var i = 0, len = bullets.length; i < len; i++) {
-                            display.drawBullet(bullets[i]);
-                        }
-                        display.ctx.restore();
-                        // draw the city graphics to the canvas
-                        display.ctx.drawImage(cities.canvas, 0, cities.y);
-                        // draw the tank sprite
-                        display.drawSprite(tank.sprite, tank.x, tank.y);
-                    };
-                    
-                    // start and run the game
-                    main();
-                    </script>
-                
+                <div>
+                    <h2>How Japan change the game culture</h2>
+
+
+                    <p>Japan didn't invent the first computer game. That accolade goes to "Space War!", a game created
+                        in 1962 at the Massachusetts Institute of Technology in the United States.</p>
+
+                    <p>But ever since then, Japan has embraced gaming culture with an almost unrivaled passion. From the
+                        Super Mario and Sonic the Hedgehog games that became cultural giants, to the Sega Mega Drive and
+                        Game Boy consoles which were symbols of their time, gaming was led by Tokyo for decades.
+                        "Without the contributions of Japan, we wouldn't have a video game industry," Blake J. Harris, a
+                        video game expert and author of "Console Wars," says. "Or, at least, not one that resembles what
+                        we have today in any way.</p>
+
+                    <p>"From hardware to software, controllers to culture, no country has had a bigger influence on
+                        console gaming."
+                        After decades of dominance, however, Japan's cultural clout waned during the early 2000s.
+                        Without the contributions of Japan, we wouldn't have a video game industry.</p>
+
+
+
+                    <p>"As the appeal of video games grew larger and larger, it's not surprising that the culture -- and
+                        development -- would no longer be dominated by a specific region," explains Harris.
+                        A renaissance, however, could be upon us with Japanese giants Sony and Nintendo both making
+                        comebacks.</p>
+                    <p> in 2013, Sony's PlayStation 4 became the best-selling home console of this generation
+                        in just 18 months, and so far it's the only one that can be paired with a virtual reality
+                        headset -- the Sony PSVR, which has sold over one million units.</p>
+                    <p>Nintendo is also breaking new ground with the Switch, a hybrid between a home console and a
+                        handheld device, while its accompanying "Legend of Zelda" game has received widespread critical
+                        acclaim.</p>
+                    <img src="./assets/space_invaders1.png" alt="space-invaders" class="space-invaders">
+                    <p>Space Invaders スペースインベーダー (arcade game by Taito) 1978
+                        One of the first arcade games, "Space Invaders" ignited the video game craze in Japan.
+                        The very first "Star Wars" movie had hit theaters weeks before its release, and that cultural
+                        event combined with the game's simple formula -- shoot descending aliens with a laser cannon --
+                        made it an instant hit.</p>
+                    <p>"It was such an enormous success that, for a time, it was believed to have caused a shortage of
+                        100-yen coins in Japan -- only a rumor, but one that shows how popular 'Space Invaders' was,"
+                        says Harris.</p>
+                    <p>By the end of 1978, Taito had made $600 million in Japan and installed 100,000 Space Invader
+                        machines -- with some arcades dedicated solely to the game.</p>
+                    <p>"Space Invaders" introduced the now-common game mechanic of enemies moving faster as the player
+                        shoots them, but the popular feature was, surprisingly, the consequence of hardware limitations
+                        rather than design preference: as the player shot aliens off the screen, the CPU had fewer
+                        objects to render and could therefore process the game faster.</p>
+
+                    <a href="./space_invaders.html">
+                        <div class="button-49 ">
+                            <h4>Space Invaders !!! スペースインベーダー</h4>
+                        </div>
+                    </a>
+
+                </div>
             </section>
         </main>
         <footer>
             <div class="FootContainer">
-              <div class="copyright">
-                <h3>All rights reserved for Wilders to Japan©</h3>
-              </div>
+                <div class="copyright">
+                    <h3>All rights reserved for Wilders to Japan©</h3>
+                </div>
             </div>
-          
-          </footer>
+
+        </footer>
     </div>
 
 </body>
+
 </html>
