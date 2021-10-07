@@ -110,39 +110,46 @@ function createCard(name,type,sliderPicture,popUpPicture,description){
 const placesToVisit = [
   {
     name: "Tokyo",
-    type: "city",
-    sliderPicture: "https://lp-cms-production.imgix.net/2021-04/Pontocho_Kyoto.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
-    popUpPicture: "https://lp-cms-production.imgix.net/2021-04/Pontocho_Kyoto.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
-    description: "this is a place bla bla bla",
+    type: "City",
+    sliderPicture:"pictures/tokyo.jpg",
+    popUpPicture:"https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dG9reW98ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    description: "Tokyo is a city forever reaching into the future. It's Japan's top spot for contemporary art and architecture, pop culture, shopping, drinking and entertainment. But more than any one sight, it's the city itself that enchants visitors. It's a sprawling, organic thing, stretching as far as the eye can see. Always changing, and with a diverse collection of neighborhoods, no two experiences of it are ever the same.",
+  },
+  { 
+    name: "Mount Fiji",
+    type: "Mountain",
+    sliderPicture:"https://www.australiangeographic.com.au/wp-content/uploads/2018/06/Mt-Fuji_Japan.jpg",
+    popUpPicture:"https://www.tripsavvy.com/thmb/xmHHjutbUKGMvgxh5Dr1F_BVXB8=/3435x2576/smart/filters:no_upscale()/fuji-mountain-in-autumn-822273028-5a6a8a9c3418c600363958d3.jpg",
+    description:"Mount Fuji is Japan's highest mountain with 3776 meters. This mountain has beenworshiped as a sacred mountain and it's very popular throughout the world. If you want to enjoy Mount Fujiat a more leisurely pace and from a nice natural surrounding, you should head to the Fuji Five Lake (Fujigoko) region at the northern foot of the mountain, or to Hakone, a nearby hot spring resort. Mount Fujiis officially open for climbing during July and August via several routes.",
+  },
+  {
+    name:'Kyoto',
+    type:'City',
+    sliderPicture:'https://www.vounajanela.com/wp-content/uploads/2020/01/kyoto-japao-1-1.jpg',
+    popUpPicture: 'https://besthqwallpapers.com/Uploads/11-10-2017/23574/thumb2-japan-4k-temple-summer-japanese-landmarks.jpg',
+    description: "Kyoto, Japan's imperial capital for a thousand years, is home to more than a thousand temples.  There's the culture of tea, which you can appreciate at one of the city's many elegant teahouses; the art of the geisha, those iconic performers of traditional music and dance; and also a rich food culture, including kaiseki."
   },
   {
     name: "Naoshima",
-    type: "island",
-    sliderPicture: "https://www.erikastravelventures.com/wp-content/uploads/2019/08/P1010422-1024x762.jpg",
+    type: "Island",
+    sliderPicture: "pictures/Naoshima2.jpg",
     popUpPicture:"https://www.erikastravelventures.com/wp-content/uploads/2019/08/P1010422-1024x762.jpg",
-    description: "this is a place bla bla bla",
+    description: "Naoshima is one of Japan's great success stories: a rural island on the verge of becoming a ghost town, now a world-class centre for contemporary art. Many of Japan's most lauded architects have contributed structures, including museums, a boutique hotel and even a bathhouse – all designed to enhance the island's natural beauty and complement its existing settlements.",
   },
   {
-    name: "Memorial Cenotaph ",
-    type: "type",
+    name: "Hiroshima",
+    type: "City",
     sliderPicture: "https://lp-cms-production.imgix.net/2021-04/shutterstockRF_1393700846.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
     popUpPicture:"https://lp-cms-production.imgix.net/2021-04/shutterstockRF_1393700846.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
-    description: "this is a place bla bla bla",
+    description: "Hiroshima today is a forward-thinking city with attractive, leafy boulevards. It's not until you visit the Peace Memorial Museum that the true extent of human tragedy wreaked by the atomic bomb becomes vividly clear. A visit here is a heartbreaking, important history lesson and the park around the museum, much of which was designed by Japan's great modernist Tange Kenzō, offers many opportunities for reflection. But the city's spirit of determination – as well as its food – will ensure that you'll have good memories to take with you when you leave.",
   },
   {
     name: "Yakushima",
-    type: "island",
-    sliderPicture: "https://lp-cms-production.imgix.net/2021-04/shutterstockRF_423304240.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
+    type: "Island",
+    sliderPicture: "https://www.yakushimaexperience.com/wp-content/uploads/2020/08/cropped-HeaderMoss.jpeg",
     popUpPicture:"https://lp-cms-production.imgix.net/2021-04/shutterstockRF_423304240.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
-    description: "this is a place bla bla bla",
+    description: "Yakushima is a small island off the coast of southern Kyūshū, is often described as magical, enchanting – other-worldly even. It's a place where words fail and clichés step in. Home to some of Japan's last primeval forest, here you'll find the yakusugi, an ancient cedar native to the island, whose giant roots form alien tentacles. Hiking trails underneath them cover craggy terrain often fuzzy with moss. The landscape here is believed to have been an inspiration for the iconic Studio Ghibli animated film Princess Mononoke.",
   },
-  {
-    name: "Kamikōchi",
-    type: "type",
-    sliderPicture: "https://lp-cms-production.imgix.net/2021-04/shutterstockRF_1254380497.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
-    popUpPicture:"https://lp-cms-production.imgix.net/2021-04/shutterstockRF_1254380497.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
-    description: "this is a place bla bla bla",
-  }
 ];
 
 function displayPlaces(){
@@ -178,8 +185,8 @@ const foodToEat = [
 {
   name: "Tempura",
   type: "Fried",
-  sliderPicture: "pictures/food/tempura.jpg",
-  popUpPicture:"https://resources.matcha-jp.com/archive_files/jp/2015/09/ginza_gonpachi_20140914v.jpg",
+  sliderPicture: "pictures/food/tempura1.jpg",
+  popUpPicture:"pictures/food/tempura2.jpg",
   description: "Typical Japanese dish usually consisting of seafood, meat and vegetables that have been battered and deep fried. The dish was introduced by Iberians in Nagasaki through the fritter-cooking techniques in the 16th century.",
 },
 
