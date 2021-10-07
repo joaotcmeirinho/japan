@@ -3,6 +3,7 @@
    padding: 0;
    box-sizing: border-box;
 }
+
 .places-food-culture-page{
    margin: 0;
    padding: 0;
@@ -18,7 +19,8 @@
    height: 100h;
    width: 100%;
    align-items: center;
-   background-color: #FCEEEE;
+   background-color: #e76969;
+   background: linear-gradient(#114357,#f29492);
    z-index: -1;
 }
 .page-content{
@@ -213,3 +215,6 @@
       font-size: 14px;
    }
 }
+places-food-culture-page{
+   background: linear-gradient(#de6262 ,#ffb88c);
+ }
