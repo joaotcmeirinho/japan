@@ -86,7 +86,8 @@ input:focus,
   #contactbody {
     /* background-image: url(pictures/cherryblosoms.jpg); */
     /* background-image: url(pictures/porfin.png); */
-    background-image: url(pictures/blackbackground.jpg);
+    /* background-image: url(pictures/blackbackground.jpg); */
+    background: linear-gradient( #114357,#f29492);
    
   }
 
