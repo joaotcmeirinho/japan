@@ -17,7 +17,7 @@ body {
 /* this is the burger button menu*/
 
 #menuToggle {
-  width: 15%;
+  width: 5%;
   display: flex;
   position: relative;
   bottom: 40px;
@@ -37,7 +37,7 @@ body {
 #menuToggle input {
   display: block;
 
-  width: 40px;
+  width: 20px;
   height: 25px;
   position: absolute;
   bottom: -25px;
@@ -45,7 +45,6 @@ body {
   cursor: pointer;
   opacity: 0;
   z-index: 2;
-  -webkit-touch-callout: none;
 }
 
 /*This is the button design*/
@@ -110,16 +109,15 @@ body {
   transform: none;
 }
 .LogoImg {
-  width: 50%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   margin: 0px;
   position: relative;
-  top: 42px;
+  top: 44px;
+  border: 0 auto;
   
 }
-/*Fixed the title to the middle*/
 .middleTitle {
   width: 100%;
   display: flex;
@@ -132,7 +130,6 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #fceeee;
- 
 }
 
 
@@ -203,7 +200,7 @@ body {
 
 .FootContainer {
   width: 100%;
-  height: 15vh;
+  height: 10vh;
   background-color: #fceeee;
   padding: 0;
   margin: 0;
@@ -277,6 +274,11 @@ body {
   }
 }
 
+li{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 @media only screen and (max-width: 400px) {
   h1 {
@@ -288,5 +290,8 @@ body {
   }
 }
 .skHeader {
+  width: 100%;
+}
+.footer{
   width: 100%;
 }
