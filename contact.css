@@ -93,6 +93,7 @@ input:focus,
 
    #chicacamara {
     visibility: hidden;
+    z-index: -1;
   } 
 
   #papiTextArea {
