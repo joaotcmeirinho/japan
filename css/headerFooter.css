@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+
   /*border for debugging*/
    /* border: 2px yellow solid; */
 }
@@ -37,7 +39,7 @@ body {
 #menuToggle input {
   display: block;
 
-  width: 20px;
+  width: 40px;
   height: 25px;
   position: absolute;
   bottom: -25px;
@@ -82,7 +84,7 @@ body {
 
 #menu {
   position: relative;
-  width: 45vh;
+  width: 60vh;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-right: 0px;
@@ -95,12 +97,28 @@ body {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   white-space: nowrap;
   z-index: 0;
+  display: flexbox;
+}
+
+/*This controls the icon position and size*/
+.icon{
+  position: relative;
+  top: 50px;
+  left: 20px;
+  width: 10%;
+  height: 10%;
 }
 
 #menu a {
   padding: 10px 0;
   font-size: 22px;
   color: #ff4d4d;
+}
+.boxli{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
 }
 
 #menuToggle input:checked ~ ul {
