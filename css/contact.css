@@ -1,8 +1,6 @@
-
-.wrapper{
+.wrapper {
   overflow: hidden;
 }
-
 
 /* STYLING OF FORM  basically what this page is about//////////////////////*/
 /* movile first */
@@ -13,13 +11,12 @@
   width: 30vw;
   /* Form outline */
   padding: 1em;
-   /* border: 1px solid #ccc;  */
+  /* border: 1px solid #ccc;  */
   border-radius: 2em;
   color: wheat;
-  font-family: 'BioRhyme', serif;
+  font-family: "BioRhyme", serif;
   font-size: 1.5em;
 }
-
 
 ul {
   list-style: none;
@@ -43,111 +40,105 @@ label {
 }
 
 input:focus,
-  textarea:focus {
-    /* Additional highlight for focused elements */
-    border-color: #000;
-  }
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
 
-  .button {
-    /* Align buttons with the text fields */
-    padding-left: 90px;
-    margin-left: 0.5em; /* same size as the label elements */
-  }
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px;
+  margin-left: 0.5em; /* same size as the label elements */
+}
 
-  li {
-    width: 40%;
-  }
+li {
+  width: 40%;
+}
 
-  textarea {
-    width: 50vw;
-    padding: 0;
-    box-sizing: border-box;
-    vertical-align: top;
-    height: 18vh;
-    font: 1em sans-serif;
-    border: 4px solid #f009;
-    border-radius: 5px;
-    overflow: auto;
-    
-  }
+textarea {
+  width: 50vw;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 18vh;
+  font: 1em sans-serif;
+  border: 4px solid #f009;
+  border-radius: 5px;
+  overflow: auto;
+}
 
-  input {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    vertical-align: top;
-    border: 4px solid #f009;
-    border-radius: 10px;
-    width: 45vw;
-    height: 4vh;
-  }
+input {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+  border: 4px solid #f009;
+  border-radius: 10px;
+  width: 45vw;
+  height: 4vh;
+}
 
+#contactbody {
+  /* background-image: url(pictures/cherryblosoms.jpg); */
+  /* background-image: url(pictures/porfin.png); */
+  /* background-image: url(pictures/blackbackground.jpg); */
+  background: linear-gradient(#114357, #f29492);
+}
 
-  #contactbody {
-    /* background-image: url(pictures/cherryblosoms.jpg); */
-    /* background-image: url(pictures/porfin.png); */
-    /* background-image: url(pictures/blackbackground.jpg); */
-    background: linear-gradient( #114357,#f29492);
-   
-  }
+#chicacamara {
+  visibility: hidden;
+}
 
-   #chicacamara {
-    visibility: hidden;
-    z-index: -1;
-  } 
+#papiTextArea {
+  /* border: 5px red solid; */
+  width: 30vw;
+  /* position: absolute; */
+  /* left: 38%; */
+}
 
-  #papiTextArea {
-    /* border: 5px red solid; */
-    width: 30vw;
-    /* position: absolute; */
-    /* left: 38%; */
-      }
+button {
+  border: 2px solid #f009;
+  border-radius: 3px;
+  background: none;
+  cursor: pointer;
+  background-color: white;
+  font-family: "BioRhyme", serif;
+  font-size: 0.5em;
+  top: 1.5em;
+  position: relative;
+}
 
-      button {
-        border       : 2px solid #f009;
-        border-radius: 3px;
-        background   : none;
-        cursor       : pointer;
-        background-color: white;
-        font-family: 'BioRhyme', serif;
-        font-size: .5em;
-        top: 1.5em;
-        position: relative;
-      }
-     
-      button:after {
-        content      : " >>>";
-      }
-      
-      button:hover,
-      button:focus {
-        outline     : none;
-        background  : #000;
-        color       : #FFF;
-      }
+button:after {
+  content: " >>>";
+}
 
-      #solecito{
-        visibility: hidden;
-      }
+button:hover,
+button:focus {
+  outline: none;
+  background: #000;
+  color: #fff;
+}
 
-      #contacto {
-        /* Center the form on the page */
-        margin: 0 auto;
-        width: 40vw;
-        /* Form outline */
-        padding: 1em;
-         /* border: 1px solid #ccc;  */
-        border-radius: 2em;
-        color: wheat;
-        font-family: 'BioRhyme', serif;
-        font-size: 1.5em;
-      }
+#solecito {
+  visibility: hidden;
+}
 
+#contacto {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 40vw;
+  /* Form outline */
+  padding: 1em;
+  /* border: 1px solid #ccc;  */
+  border-radius: 2em;
+  color: wheat;
+  font-family: "BioRhyme", serif;
+  font-size: 1.5em;
+}
 
 /* STYLES BIG SCREEN */
 
 @media only screen and (min-width: 800px) {
-  
   input {
     padding: 0;
     margin: 0;
@@ -171,10 +162,9 @@ input:focus,
     overflow: auto;
     /* position: relative;
     left: 14%; */
-    
   }
 
-  #chicacamara{
+  #chicacamara {
     visibility: inherit;
     position: relative;
     transform: translateX(400px);
@@ -189,27 +179,28 @@ input:focus,
   } */
 
   #papiTextArea {
-  
-  /* width: 30vw; */
-  position: relative;
-  /* left: -11%; */
-      }
+    /* width: 30vw; */
+    position: relative;
+    /* left: -11%; */
+  }
 
   /* STYLING OF BOTTOM */
-  
+
   button {
-    border       : 3px solid #f009;
+    border: 3px solid #f009;
     border-radius: 5px;
-  
+    top: 25vh;
+    position: relative;
+    right: 23.5vw;
+    height: 45px;
   }
- 
 
   /* SOLECITO */
-  #solecito{
+  #solecito {
     visibility: inherit;
     position: relative;
     left: 40vw;
-     /* transform: translateX(-700px); */
+    /* transform: translateX(-700px); */
     bottom: -30vw;
   }
 
@@ -219,10 +210,10 @@ input:focus,
     width: 30vw;
     /* Form outline */
     padding: 1em;
-     /* border: 1px solid #ccc;  */
+    /* border: 1px solid #ccc;  */
     border-radius: 2em;
     color: wheat;
-    font-family: 'BioRhyme', serif;
+    font-family: "BioRhyme", serif;
     font-size: 1.5em;
   }
 
@@ -234,6 +225,4 @@ input:focus,
     position: absolute;
     margin-bottom: 23vh;
   }
-
-
 }
