@@ -99,14 +99,29 @@ body {
   white-space: nowrap;
   display: flexbox;
 
+
 }
-
-
+/*This controls the icon position and size*/
+.icon{
+  position: relative;
+  top: 50px;
+  left: 20px;
+  width: 10%;
+  height: 10%;
+}
 
 #menu a {
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 20px;
   color: #ff4d4d;
+  
+}
+/* this controls the li inside the burger box*/
+.boxli{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
 }
 
 #menuToggle input:checked ~ ul {
