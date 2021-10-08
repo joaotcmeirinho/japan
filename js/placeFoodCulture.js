@@ -113,14 +113,14 @@ const placesToVisit = [
     type: "City",
     sliderPicture:"pictures/tokyo.jpg",
     popUpPicture:"https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dG9reW98ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
-    description: "Tokyo is a city forever reaching into the future. It's Japan's top spot for contemporary art and architecture, pop culture, shopping, drinking and entertainment. But more than any one sight, it's the city itself that enchants visitors. It's a sprawling, organic thing, stretching as far as the eye can see. Always changing, and with a diverse collection of neighborhoods, no two experiences of it are ever the same.",
+    description: "Tokyo is a city forever reaching into the future. It's Japan's top spot for contemporary art and architecture, pop culture, shopping, drinking and entertainment. But more than any one sight, it's the city itself that enchants visitors. It's a sprawling, organic thing, stretching as far as the eye can see. Always changing, and with a diverse collection of neighborhoods.",
   },
   { 
     name: "Mount Fiji",
     type: "Mountain",
     sliderPicture:"https://www.australiangeographic.com.au/wp-content/uploads/2018/06/Mt-Fuji_Japan.jpg",
     popUpPicture:"https://www.tripsavvy.com/thmb/xmHHjutbUKGMvgxh5Dr1F_BVXB8=/3435x2576/smart/filters:no_upscale()/fuji-mountain-in-autumn-822273028-5a6a8a9c3418c600363958d3.jpg",
-    description:"Mount Fuji is Japan's highest mountain with 3776 meters. This mountain has beenworshiped as a sacred mountain and it's very popular throughout the world. If you want to enjoy Mount Fujiat a more leisurely pace and from a nice natural surrounding, you should head to the Fuji Five Lake (Fujigoko) region at the northern foot of the mountain, or to Hakone, a nearby hot spring resort. Mount Fujiis officially open for climbing during July and August via several routes.",
+    description:"Mount Fuji is Japan's highest mountain with 3776 meters. This mountain has beenworshiped as a sacred mountain and it's very popular throughout the world. If you want to enjoy Mount Fujiat a more leisurely pace and from a nice natural surrounding, you should head to the Fuji Five Lake (Fujigoko) region at the northern foot of the mountain.",
   },
   {
     name:'Kyoto',
@@ -141,14 +141,14 @@ const placesToVisit = [
     type: "City",
     sliderPicture: "https://lp-cms-production.imgix.net/2021-04/shutterstockRF_1393700846.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
     popUpPicture:"https://lp-cms-production.imgix.net/2021-04/shutterstockRF_1393700846.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
-    description: "Hiroshima today is a forward-thinking city with attractive, leafy boulevards. It's not until you visit the Peace Memorial Museum that the true extent of human tragedy wreaked by the atomic bomb becomes vividly clear. A visit here is a heartbreaking, important history lesson and the park around the museum, much of which was designed by Japan's great modernist Tange Kenzō, offers many opportunities for reflection. But the city's spirit of determination – as well as its food – will ensure that you'll have good memories to take with you when you leave.",
+    description: "Hiroshima today is a forward-thinking city with attractive, leafy boulevards. It's not until you visit the Peace Memorial Museum that the true extent of human tragedy wreaked by the atomic bomb becomes vividly clear. The city's spirit of determination – as well as its food – will ensure that you'll have good memories to take with you when you leave.",
   },
   {
     name: "Yakushima",
     type: "Island",
     sliderPicture: "https://www.yakushimaexperience.com/wp-content/uploads/2020/08/cropped-HeaderMoss.jpeg",
     popUpPicture:"https://lp-cms-production.imgix.net/2021-04/shutterstockRF_423304240.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
-    description: "Yakushima is a small island off the coast of southern Kyūshū, is often described as magical, enchanting – other-worldly even. It's a place where words fail and clichés step in. Home to some of Japan's last primeval forest, here you'll find the yakusugi, an ancient cedar native to the island, whose giant roots form alien tentacles. Hiking trails underneath them cover craggy terrain often fuzzy with moss. The landscape here is believed to have been an inspiration for the iconic Studio Ghibli animated film Princess Mononoke.",
+    description: "Yakushima is a small magical island off the coast of southern Kyūshū. It isome to some of Japan's last primeval forest, here you'll find the yakusugi, an ancient cedar native to the island. The landscape here is believed to have been an inspiration for the iconic Studio Ghibli animated film Princess Mononoke.",
   },
 ];
 
@@ -207,41 +207,41 @@ function displayFood(){
 //culture page 
 const culturalAspect = [
   {
-    name: "Sumo",
-    type: "Sport",
-    sliderPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
-    popUpPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
-    description: "Sumo is Japan's national sport, a uniquely Japanese pursuit involving physical strength, strictly observed ritual, a complex code of behaviour, religious overtones, a daunting hierarchy system and feudalistic training regimes. It originated 15 centuries ago in ancient Shinto ceremonies.",
+    name: "Cherry Bloosom",
+    type: "Tradition",
+    sliderPicture:"https://media.cntraveler.com/photos/5c3f46c2a5c1d51f43a9d220/3:2/w_3999,h_2666,c_limit/Japan_Cherry-Blossoms_GettyImages-179989245.jpg",
+    popUpPicture:"https://resources.matcha-jp.com/resize/720x2000/2021/01/28-112002.jpeg",
+    description: "The practice of viewing and appreciating cherry blossoms in a formal setting comes from many years ago. Special viewing pavilions for the nobility were built particularly for this purpose in Kyoto and Nara. Nowadays several drinking parties are conducted under the blossoms in Maruyama Park in Kyoto's Gion district today, in a cathartic mass-shedding of the normal Japanese restraint.",
   },
   {
-    name: "Sumo",
-    type: "Sport",
-    sliderPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
-    popUpPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
-    description: "Sumo is Japan's national sport, a uniquely Japanese pursuit involving physical strength, strictly observed ritual, a complex code of behaviour, religious overtones, a daunting hierarchy system and feudalistic training regimes. It originated 15 centuries ago in ancient Shinto ceremonies.",
+    name: "Tea Ceremony",
+    type: "Ritual",
+    sliderPicture:"pictures/teaCeremony.jpg",
+    popUpPicture:"https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/01/a0001073/img/basic/a0001073_main.jpg",
+    description: "Japanese tradition which consists in a ceremonial way of preparing and drinking green tea typically in a traditional tearoom with tatami floor. Beyond just serving and receiving tea, one of the main purposes of the tea ceremony is for the guests to enjoy the hospitality of the host in an atmosphere distinct from the fast pace of everyday life.",
 },
 
 {
-  name: "Sumo",
-  type: "Sport",
-  sliderPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
-  popUpPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
-  description: "Sumo is Japan's national sport, a uniquely Japanese pursuit involving physical strength, strictly observed ritual, a complex code of behaviour, religious overtones, a daunting hierarchy system and feudalistic training regimes. It originated 15 centuries ago in ancient Shinto ceremonies.",
+  name: "Geisha",
+  type: "Tradition",
+  sliderPicture:"pictures/geishas.jpg",
+  popUpPicture:"https://st4.depositphotos.com/12982378/28151/i/600/depositphotos_281517862-stock-photo-geisha-in-black-kimono-with.jpg",
+  description: "Geisha (or geiko) are professional entertainers who attend guests during meals, banquets and other occasions. They are trained in various traditional Japanese arts, such as dance and music. Geishas are said to have roots in female entertainers such as the saburuko female entertainers in the 7th century and shirabyoshi dancers around the early 13th century."
 },
 
 {
-  name: "Sumo",
-  type: "Sport",
-  sliderPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
-  popUpPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
-  description: "Sumo is Japan's national sport, a uniquely Japanese pursuit involving physical strength, strictly observed ritual, a complex code of behaviour, religious overtones, a daunting hierarchy system and feudalistic training regimes. It originated 15 centuries ago in ancient Shinto ceremonies.",
+  name: "Shrines & temples",
+  type: "Religion",
+  sliderPicture:"pictures/shrines&temples.jpg",
+  popUpPicture:"https://s3.voyapon.com/wp-content/uploads/2021/02/18141108/sanctuaire-temple-japon-3638.jpg",
+  description: "In Japan, shrines are linked with the Shinto religion, and their names often end in the suffixes -gu, -jinja or -jingu. Temples, on the other hand, are ­Buddhist and usually end with -ji, -tera or -dera. Quite often, temples and shrines are found side by side, or a temple or shrine will have an complementary adjunct on the same sacred grounds..",
 },
 {
-  name: "Sumo",
-  type: "Sport",
-  sliderPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
-  popUpPicture:"https://static01.nyt.com/images/2016/01/27/sports/27SUMOweb1/27SUMOweb1-superJumbo-v2.jpg",
-  description: "Sumo is Japan's national sport, a uniquely Japanese pursuit involving physical strength, strictly observed ritual, a complex code of behaviour, religious overtones, a daunting hierarchy system and feudalistic training regimes. It originated 15 centuries ago in ancient Shinto ceremonies.",
+  name: "Onsen",
+  type: "Natural",
+  sliderPicture:"pictures/onsen.jpg",
+  popUpPicture:"https://img1.wsimg.com/isteam/ip/f6b182aa-4f41-41e7-862e-400efb91804b/9da32e64-67a4-4594-9a54-8d6e6c204fd4.png",
+  description: "Onsen are naturally-occurring hot springs located directly on the Pacific Ring of Fire. Beginning as health spas, onsen has developed into one of the most popular tourist attractions in Japan as well as greatly influenced Japanese bathing culture. You have to wash up before entering the onsen. Swimwear, clothing, or towels in the onsen are considered “dirty.",
 }
 ];
 function displayCulture(){
