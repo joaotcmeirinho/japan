@@ -120,7 +120,7 @@ const placesToVisit = [
     type: "Mountain",
     sliderPicture:"https://www.australiangeographic.com.au/wp-content/uploads/2018/06/Mt-Fuji_Japan.jpg",
     popUpPicture:"https://www.tripsavvy.com/thmb/xmHHjutbUKGMvgxh5Dr1F_BVXB8=/3435x2576/smart/filters:no_upscale()/fuji-mountain-in-autumn-822273028-5a6a8a9c3418c600363958d3.jpg",
-    description:"Mount Fuji is Japan's highest mountain with 3776 meters. This mountain has beenworshiped as a sacred mountain and it's very popular throughout the world. If you want to enjoy Mount Fujiat a more leisurely pace and from a nice natural surrounding, you should head to the Fuji Five Lake (Fujigoko) region at the northern foot of the mountain.",
+    description:"Mount Fuji is Japan's highest mountain with 3776 meters. This mountain has been worshiped as a sacred mountain and it's very popular throughout the world. If you want to enjoy Mount Fuji at a more leisurely pace and from a nice natural surrounding, you should head to the Fuji Five Lake (Fujigoko) region at the northern foot of the mountain.",
   },
   {
     name:'Kyoto',
@@ -148,7 +148,7 @@ const placesToVisit = [
     type: "Island",
     sliderPicture: "https://www.yakushimaexperience.com/wp-content/uploads/2020/08/cropped-HeaderMoss.jpeg",
     popUpPicture:"https://lp-cms-production.imgix.net/2021-04/shutterstockRF_423304240.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=50&dpr=2",
-    description: "Yakushima is a small magical island off the coast of southern Kyūshū. It isome to some of Japan's last primeval forest, here you'll find the yakusugi, an ancient cedar native to the island. The landscape here is believed to have been an inspiration for the iconic Studio Ghibli animated film Princess Mononoke.",
+    description: "Yakushima is a small magical island off the coast of southern Kyūshū. It is one of Japan's last primeval forest, here you'll find the yakusugi, an ancient cedar native to the island. The landscape here is believed to have been an inspiration for the iconic Studio Ghibli animated film Princess Mononoke.",
   },
 ];
 
@@ -195,7 +195,7 @@ const foodToEat = [
   type: "Vegetarian",
   sliderPicture: "pictures/food/tofu.jpg",
   popUpPicture:"https://images.japancentre.com/page_elements/image1s/1515/original/tofu-bean-curd.jpg?1470240775",
-  description: "Tofu, also known as bean curd ia a soft and xrelatively flavourless food product made from soybeans. Tofu is an important source of protein in the cuisines of China, Japan, Korea, and Southeast Asia. It is believed to date from the Han dynasty (206 BCE–220 CE). Tofu is made from dried soybeans that are soaked in water, crushed, and boiled.",
+  description: "Tofu, also known as bean curd is a soft and relatively flavourless food product made from soybeans. Tofu is an important source of protein in the cuisines of China, Japan, Korea, and Southeast Asia. It is believed to date from the Han dynasty (206 BCE–220 CE). Tofu is made from dried soybeans that are soaked in water, crushed, and boiled.",
 }
 ];
 function displayFood(){
@@ -234,14 +234,14 @@ const culturalAspect = [
   type: "Religion",
   sliderPicture:"pictures/shrines&temples.jpg",
   popUpPicture:"https://s3.voyapon.com/wp-content/uploads/2021/02/18141108/sanctuaire-temple-japon-3638.jpg",
-  description: "In Japan, shrines are linked with the Shinto religion, and their names often end in the suffixes -gu, -jinja or -jingu. Temples, on the other hand, are ­Buddhist and usually end with -ji, -tera or -dera. Quite often, temples and shrines are found side by side, or a temple or shrine will have an complementary adjunct on the same sacred grounds..",
+  description: "In Japan, shrines are linked with the Shinto religion, and their names often end in the suffixes -gu, -jinja or -jingu. Temples, on the other hand, are ­Buddhist and usually end with -ji, -tera or -dera. Quite often, temples and shrines are found side by side, or a temple or shrine will have an complementary adjunct on the same sacred grounds.",
 },
 {
   name: "Onsen",
   type: "Natural",
   sliderPicture:"pictures/onsen.jpg",
   popUpPicture:"https://img1.wsimg.com/isteam/ip/f6b182aa-4f41-41e7-862e-400efb91804b/9da32e64-67a4-4594-9a54-8d6e6c204fd4.png",
-  description: "Onsen are naturally-occurring hot springs located directly on the Pacific Ring of Fire. Beginning as health spas, onsen has developed into one of the most popular tourist attractions in Japan as well as greatly influenced Japanese bathing culture. You have to wash up before entering the onsen. Swimwear, clothing, or towels in the onsen are considered “dirty.",
+  description: "Onsen are naturally-occurring hot springs located directly on the Pacific Ring of Fire. Beginning as health spas, Onsen has developed into one of the most popular tourist attractions in Japan as well as greatly influenced Japanese bathing culture. You have to wash up before entering the Onsen. Swimwear, clothing, or towels in the Onsen are considered 'dirty.'",
 }
 ];
 function displayCulture(){
